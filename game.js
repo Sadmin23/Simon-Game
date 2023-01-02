@@ -11,3 +11,11 @@ var randmNumber = nextSequence();
 var randomChosenColour = buttonColours[randmNumber];
 
 buttonColours.push(randomChosenColour);
+
+var id = "#" + randomChosenColour;
+
+// alert(id);
+
+// $("h1").css("color","yellow");
+
+$(id).fadeOut(100).fadeIn(100);
